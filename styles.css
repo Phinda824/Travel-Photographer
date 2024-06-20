@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.background-img {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgb(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(./images/South-Africa-nature-reserves-2-1170x669.webp);
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}
+.nav {
+  height: 100px;
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+}
+.logo {
+  height: 50px;
+  width: 45px;
+  border-bottom: 3px solid #1b5f21;
+  border-left: 3px solid #1b5f21;
+  border-top: 3px solid #1b5f21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #1b5f21;
+  margin-right: -100px;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav ul li a {
+  font-size: 20px;
+  font-size: 400;
+  color: #1b5f21;
+  text-decoration: none;
+  margin-left: 90px;
+}
+.section-text {
+  padding-top: 150px;
+}
+.section-text h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #1b5f21;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.section-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #1b5f21;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+.btn {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 20px;
+  border: none;
+  background-color: #1b5f21;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+button:hover {
+  border: 1px solid #1b5f21;
+  background-color: transparent;
+}
+button a {
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+button a:hover {
+  color: #1b5f21;
+}
