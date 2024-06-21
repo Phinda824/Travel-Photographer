@@ -59,6 +59,8 @@
 .nav ul li a:hover {
   color: #5b9e61;
 }
+
+/****************sectiion text**************/
 .section-text {
   padding-top: 150px;
 }
@@ -149,7 +151,7 @@
   content: "";
   position: absolute;
   top: 25px;
-  left: 150px;
+  left: 135px;
   width: 50px;
   height: 1px;
   background-color: #1b5f21;
@@ -192,7 +194,7 @@
   font: 16px;
   font-weight: 100;
   color: white;
-  margin: 30px 0 0 200px;
+  margin: 30px 0 0 100px;
   line-height: 25px;
   letter-spacing: 2px;
 }
@@ -311,6 +313,56 @@
   border: none;
   font-size: 20px;
   cursor: pointer;
+}
+
+/***************Portfolio page*******************/
+.portfolio-sect {
+  width: 100%;
+  padding: 80px;
+  margin-top: 120px;
+  background-color: #eaf0f1;
+  display: flex;
+  justify-content: center;
+}
+.port-card {
+  margin-bottom: 60px;
+}
+.text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.num {
+  font-size: 12px;
+  font-weight: 100;
+  color: #1b5f21;
+  position: relative;
+}
+.num::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 3px;
+  width: 10px;
+  height: 1px;
+  background-color: #1b5f21;
+}
+.text p {
+  font-size: 26px;
+  font-weight: 100;
+  color: #1b5f21;
+  font-style: italic;
+  margin-left: 15px;
+}
+.port-img {
+  width: 850px;
+  height: 450px;
+  margin-top: 35px;
+}
+.port-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /************Footer***************/
