@@ -99,9 +99,9 @@
   border: 1px solid #1b5f21;
 }
 
+/*******************Main Section********************/
 .main-section {
   width: 100%;
-  height: 100vh;
   background-color: #eaf0f1;
   margin-top: 110px;
 }
@@ -164,15 +164,23 @@
 }
 
 .box-section {
+  width: 100%;
+  height: 500px;
   margin-top: 130px;
-  background-color: #eaf0f1;
+  background-image: url(./images/beginner-photography-tips-1024x574.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
 }
 .box-text {
-  width: 100%;
+  width: 1200px;
   height: 370px;
   background-color: #1b5f21;
   padding: 120px;
-  margin: 0 80px;
+  margin-top: -600px;
 }
 .box-text h1 {
   font: 40px;
@@ -190,10 +198,142 @@
 }
 .box-image {
   width: 100%;
-  height: 470px;
+  height: 500px;
+  margin-top: 50px;
 }
 .box-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/***********contact*************/
+.contact-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #eaf0f1;
+  padding: 120px 200px 0 200px;
+}
+.contact_form {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+.contacts h1 {
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 7px;
+  color: #1b5f21;
+}
+.contacts h2 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #1b5f21;
+  font-style: italic;
+  letter-spacing: 2px;
+  margin-top: 60px;
+}
+.inst {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+.inst i {
+  font-size: 24px;
+  cursor: pointer;
+}
+.inst p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #1b5f21;
+  margin-left: 20px;
+  letter-spacing: 1px;
+}
+.face {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+.face i {
+  font-size: 24px;
+  cursor: pointer;
+}
+.face p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #1b5f21;
+  margin-left: 20px;
+  letter-spacing: 1px;
+}
+
+.inp-form {
+  width: 500px;
+  margin-left: 40px;
+}
+.form_group {
+  margin-bottom: 10px;
+}
+.form_group label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #434f52;
+}
+.form_group input {
+  width: 100%;
+  height: 37px;
+  background-color: transparent;
+  border: 0.5px solid #434f52;
+  margin-top: 5px;
+  padding: 0 10px;
+}
+.form_group input:focus {
+  outline: 0;
+}
+.form_group textarea {
+  width: 100%;
+  background-color: transparent;
+  border: 0.5px solid #434f52;
+  padding: 10px;
+  margin-top: 5px;
+}
+.form_group textarea:focus {
+  outline: 0;
+}
+
+.form_group button {
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  background-color: #1b5f21;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/************Footer***************/
+.footer {
+  height: 120px;
+  width: 100%;
+  background-color: #1b5f21;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer p {
+  font-size: 16px;
+  color: white;
+  letter-spacing: 1px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons i {
+  font-size: 24px;
+  color: white;
+  margin-left: 25px;
 }
