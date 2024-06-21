@@ -21,13 +21,13 @@
         <div class="home-section">
           <div class="nav">
             <div class="logo">
-              <p>Sydwell</p>
+              <a href="index.html">Sydwell</a>
             </div>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Portfolio</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
               <li><a href="#">Client Album</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
 
@@ -78,7 +78,53 @@
           </div>
         </div>
 
-        <!------------------Main section--------------->
+        <!------------------Contact section--------------->
+        <div class="contact-section" id="contact">
+          <div class="contact_form">
+            <div class="contacts">
+              <h1>CONTACT</h1>
+              <h2>Sydwell Xhalabile</h2>
+              <div class="inst">
+                <i class="fa-brands fa-instagram"></i>
+                <p>SydwellXhalabile</p>
+              </div>
+              <div class="face">
+                <i class="fa-brands fa-facebook"></i>
+                <p>Sydwell Xhalabile</p>
+              </div>
+            </div>
+            <form class="inp-form">
+              <div class="form_group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required />
+              </div>
+              <div class="form_group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required />
+              </div>
+              <div class="form_group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" />
+              </div>
+              <div class="form_group">
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+              <div class="form_group">
+                <label for="message">Message *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <div class="form_group">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
 
         <!------------------Contact section--------------->
         <div class="footer">
